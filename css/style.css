@@ -1,0 +1,151 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+
+
+}
+
+.page {
+    width: 100%;
+    /*background-color: greenyellow;*/
+    padding: 640px 44px 45px 44px;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head {
+    grid-area: head;
+}
+
+.header-title {
+    font-size: 6.8rem;
+    font-weight: normal;
+}
+
+.nav-link {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 45px 0 0 0;
+    padding: 34px 33px;
+    border: 3px solid black;
+
+}
+
+.nav-link {
+    grid-area: nav;
+}
+
+.site-section {
+    list-style: none;
+
+}
+
+.links {
+    text-decoration: none;
+    color: #666666FF;
+    font-weight: bold;
+    font-size: 3.42rem;
+}
+.links:hover{
+    text-decoration: underline;
+}
+
+.article-sides {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.side {
+    padding: 24px 12px;
+}
+
+.side-1 {
+    grid-area: side1;
+    width: 30%;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+
+}
+
+.side-2 {
+    grid-area: side2;
+    width: 39%;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+
+
+}
+.img{
+    width: 400px;
+    height: 280px;
+    margin: 10px 0 10px 100px;
+
+}
+
+.side-3 {
+    grid-area: side3;
+    width: 31%;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+
+
+}
+
+.side-4 {
+    grid-area: side4;
+    width: 30%;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+
+
+}
+
+.side-5 {
+    grid-area: side5;
+    width: 70%;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+
+
+}
+
+.slide-title {
+    font-size: 3.42rem;
+    font-weight: normal;
+    font-style: italic;
+    font-family: Times New Roman,sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px 3px;
+
+}
+
+.description {
+    font-size: 1.81rem;
+    font-weight: 400;
+    font-family: Times New Roman,sans-serif;
+    padding: 14px 0 0;
+
+}
